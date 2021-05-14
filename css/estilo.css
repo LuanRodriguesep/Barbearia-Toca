@@ -1,0 +1,207 @@
+/*reset*/
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    /*border: #AF4618 3px solid;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/* MENU */
+
+.header {
+    background-color: rgba(37, 37, 37, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-logo img {
+    height: 60px;
+}
+
+.menu-nav {
+    flex: 1;
+    align-self: center;
+}
+
+.menu-nav ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav ul li a {
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+/* INTRODUÇÃO */
+
+.intro {
+    background: url('https://casa.abril.com.br/wp-content/uploads/2016/11/barbearia-retro.jpeg?quality=70&strip=all') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.quote-externo p::before,
+.quote-externo p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.quote_externo p {
+    font-style: italic;
+}
+
+.quote_externo p::before,
+.quote_externo p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 14px auto 10px auto;
+}
+
+.quote_externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+
+/*produtos*/
+
+.produtos{
+    background-image: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Ln9V9RKIfGBoek5YJ1VHizo5iwiTwcisUQ&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.produtos-container{
+    max-width: 960px;
+    margin: 0 auto;
+    border: solid 1px #fff;
+    
+}
+.produtos-menu{
+   
+    display: flex;
+  
+    
+}
+.produtos-menu li {
+    background-color: linear-gradient( rgba(37, 37, 37, .9), rgba(37, 37, 37, .9));
+    border: solid 1px #AF4618 ;
+    flex-basis: 0;
+    flex: 0 1 0;
+    margin: 10px;
+    padding: 10px;
+    
+    
+    
+    
+
+    
+}
+
+.produtos-menu img{
+    border-radius: 10px;
+    display: block;
+    
+
+}
+
+/*Portfólio*/
+
+
+
+.portfolio {
+    background: #AF4618;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyr-4HFHGagPqIe8Y9oiWB0KBdnjnOb_y8xg&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    
+}
+
+.container-portfolio {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.container-portfolio ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-portfolio img {
+    height: 140px;
+    width: 200px;
+}
